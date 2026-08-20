@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .imagem-animada {
+            animation: mover 2s linear infinite;
+        }
+
+        @keyframes mover {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(20px); }
+            100% { transform: translateX(0); }
+        }
+    </style>
 </head>
 <body>
     <h1>Meu primeiro site em HTML</h1>
@@ -36,12 +47,7 @@
      <li>Item 3</li>
      <li>Item 4</li>
    </ul>
-   <h1>Imagens:</h1>
-<hr>
-
-<img src="imagens/images.jpg" height="150" width="150" alt="Gatinho fofo" title="Gatinho fofo">
-
-
+<img src="imagens/images.jpg"   
 
 </body>
 </html>
