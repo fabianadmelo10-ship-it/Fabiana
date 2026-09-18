@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+    <link rel="stylesheet">
+</head>
+
+<body>
+    <h2>Formulário</h2>
+    <form>
+    <form method="post">
+     <label for="nome">Nome:</label>
+     <input type="text" id="nome" name="nome"><br>
+
+     <label for="email">email:</label>
+     <input type="email" id="email"name="email"><br>
+
+     <label for="idade">idade:</label>
+     <input for="number" min="18" max="130" id="idade" name="idade" required><br>
+     
+     <label for="idade">idade (slider):</label>
+     <input type="range"id="idade" name="idade" min="18" max="100" required ><br>
+
+     <input type="color"id="cor" name="cor" required><br>
+
+     <label for="date">Data:</label>
+     <input type="date" name="Data" id="Data" required>   <br>
+
+     <label for="part">CPF</label>
+     <input type="text" id="part" name="part" required pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}"
+      title="Formato:000.000.000-00" placeholder="000.000.000-00" maxlength="14"><br>
+
+     <label for="senha">senha:</label> 
+
+     <label for="cidade">Escolha uma cidade:</label><br>
+
+<select id="cidade" name="cidade"><br>
+  <option value="recife">Recife</option>
+  <option value="sao-paulo">São Paulo</option>
+  <option value="rio-de-janeiro">Rio de Janeiro</option>
+  <option value="brasilia">Brasília</option>
+  <option value="salvador">Salvador</option>
+  <option value="fortaleza">Fortaleza</option>
+  <option value="belo-horizonte">Belo Horizonte</option>
+  <option value="manaus">Manaus</option>
+  <option value="curitiba">Curitiba</option>
+  <option value="porto-alegre">Porto Alegre</option>
+  <option value="goiania">Goiânia</option>
+  <option value="belem">Belém</option>
+  <option value="guarulhos">Guarulhos</option>
+  <option value="campinas">Campinas</option>
+  <option value="sao-luis">São Luís</option>
+  <option value="maceio">Maceió</option>
+  <option value="natal">Natal</option>
+  <option value="teresina">Teresina</option>
+  <option value="joao-pessoa">João Pessoa</option>
+  <option value="aracaju">Aracaju</option>
+  <option value="florianopolis">Florianópolis</option>
+  <option value="cuiaba">Cuiabá</option>
+  <option value="campo-grande">Campo Grande</option>
+  <option value="vitoria">Vitória</option>
+  <option value="olinda">Olinda</option>
+  <option value="caruaru">Caruaru</option>
+  <option value="petrolina">Petrolina</option>
+  <option value="jaboatao">Jaboatão dos Guararapes</option>
+  <option value="paulista">Paulista</option>
+  <option value="cabo-de-santo-agostinho">Cabo de Santo Agostinho</option>
+  <option value="garanhuns">Garanhuns</option>
+  <option value="gravata">Gravatá</option>
+  <option value="igarassu">Igarassu</option>
+  <option value="goiana">Goiana</option>
+  <option value="serra-talhada">Serra Talhada</option>
+  <option value="santa-cruz-do-capibaribe">Santa Cruz do Capibaribe</option>
+  <option value="surubim">Surubim</option>
+  <option value="limoeiro">Limoeiro</option>
+</select>
+
+     <input type="password" id="senha"name="senha" required><br>
+     
+
+
+
+
+     <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
